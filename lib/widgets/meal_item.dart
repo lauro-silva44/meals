@@ -5,17 +5,19 @@ import 'package:transparent_image/transparent_image.dart';
 
 class MealItem extends StatelessWidget {
   const MealItem({super.key, required this.meal, required this.onSelectMeal});
+
   final Meal meal;
   final void Function(Meal) onSelectMeal;
+
   String get complexityText {
     return meal.complexity.name[0].toUpperCase() +
         meal.complexity.name.substring(1);
   }
 
   String get affordabilityText {
-    var affordabillity = meal.affordability;
-    return affordabillity.name[0].toUpperCase() +
-        affordabillity.name.substring(1);
+    var affordability = meal.affordability;
+    return affordability.name[0].toUpperCase() +
+        affordability.name.substring(1);
   }
 
   @override
@@ -31,12 +33,15 @@ class MealItem extends StatelessWidget {
         },
         child: Stack(
           children: [
-            FadeInImage(
-              placeholder: MemoryImage(kTransparentImage),
-              image: NetworkImage(meal.imageUrl),
-              fit: BoxFit.cover,
-              height: 200,
-              width: double.infinity,
+            Hero(
+              tag: meal.id,
+              child: FadeInImage(
+                placeholder: MemoryImage(kTransparentImage),
+                image: NetworkImage(meal.imageUrl),
+                fit: BoxFit.cover,
+                height: 200,
+                width: double.infinity,
+              ),
             ),
             Positioned(
                 left: 0,
