@@ -1,16 +1,18 @@
-# meals
-
-A new Flutter project.
-
+# Meals
+ A project developed during the Flutter course where the exercise was to pass data from one screen to another and also using providers to store data, such as favorite food
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this app locally and explore its codebase, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```bash
+   https://github.com/lauro-silva44/meals.git
+   ```
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+3. Run the app:
+   ```bash
+   flutter run
+   ```
