@@ -19,5 +19,5 @@ To run this app locally and explore its codebase, follow these steps:
    flutter run
    ```
    <div align ="center" >
-   <img src ="github_cover/cover.gif" with="50%"/>
+   <img src ="github_cover/gitcover.gif" with="50%"/>
    </div>
