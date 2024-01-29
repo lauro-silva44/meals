@@ -1,5 +1,7 @@
 # Meals
- A project developed during the Flutter course where the exercise was to pass data from one screen to another and also using providers to store data, such as favorite food
+
+A project developed during the Flutter course where the exercise was to pass data from one screen to another and also using providers to store data, such as favorite food
+
 ## Getting Started
 
 To run this app locally and explore its codebase, follow these steps:
@@ -16,3 +18,6 @@ To run this app locally and explore its codebase, follow these steps:
    ```bash
    flutter run
    ```
+   <div align ="center" >
+   <img src ="github_cover/cover.gif" with="100%"/>
+   </div>
