@@ -1,4 +1,4 @@
-# Meals
+# Meals 🍲🥘
 
 A project developed during the Flutter course where the exercise was to pass data from one screen to another and also using providers to store data, such as favorite food
 
